@@ -36,10 +36,11 @@ export default function Login() {
       <div className="bg-[white] p-4">
         <div className="mt-3">{error && <p className="text-[20px] text-center mx-auto max-w-[200px] rounded-md flex items-center justify-center text-red-600">{error}</p>}</div>
 
-        <div className="bg-white mx-auto py-7">
+        <div className="bg-white mx-auto py-3 pt-2 border shadow-sm rounded-[10px]">
           <form onSubmit={handleLogin}>
             <div className="flex flex-col gap-6 p-5">
               <div className="flex flex-col gap-3">
+                <p className="font-semibold text-lg">Sign in to Online Banking</p>
                 <label htmlFor="Username" className="text-[#001928] font-[600] text-[16px]">
                   Card number/Username
                 </label>
@@ -51,9 +52,9 @@ export default function Login() {
                 </label>
                 <input type="password" value={password} className="p-4 rounded text-[#000000] bg-transparent border border-gray-400 outline-none" onChange={e => setPassword(e.target.value)} />
               </div>
-              <div className="flex flex-col w-full items-center justify-between gap-2 mt-6">
+              <div className="flex flex-col w-full items-center justify-between gap-2 mt-2">
                 <button type="submit" className="p-4 bg-[#0075be] w-full text-white font-semibold rounded-full">
-                  Log In
+                  SIGN IN
                 </button>
               </div>
             </div>
@@ -61,7 +62,7 @@ export default function Login() {
         </div>
       </div>
       <div className="w-full min-h-[70px] flex absolute bottom-0 z-50 px-[10px] p-[20px]">
-        <p className="text-sm text-[#22262A] text-center">©2025 CityFederalCU. All rights reserved. 901 S Lincoln St. Amarillo, TX 79101 Member FDIC.</p>
+        <p className="text-sm text-[#22262A] text-center">Legal | Privacy | Security | Accessibility | CDIC Member</p>
       </div>
     </div>
   );
