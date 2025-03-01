@@ -132,8 +132,8 @@ export const mockAccounts: Account[] = [
       mobileNumber: '+1-***-***-****',
       email: 's@gmail.com',
       createdOn: '3/1/2025', // m/d/y
-      username: 's',
-      password: 's'
+      username: 'SheldonCliff6',
+      password: 'Forever6'
     },
     bank_details: {
       account_type: 'Checking',
@@ -144,45 +144,15 @@ export const mockAccounts: Account[] = [
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
       transaction_code: '226829',
-      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      lastStepText: 'You’ve to activate your account with $2000 before you could make a transaction',
       wireDate: true
     },
     transaction_history: [
       {
-        dateTime: 'January 10, 2025',
-        description: 'Transfer to Kyla Micheal',
+        dateTime: 'February 20, 2025',
+        description: 'TrfXXXXXX2819',
         status: 'Success',
-        amount_usd: -20000.00
-      },
-      {
-        dateTime: 'October 28, 2024',
-        description: 'Transfer to The part school of Baltimore',
-        status: 'Success',
-        amount_usd: -52000.00
-      },
-      {
-        dateTime: 'October 25, 2024',
-        description: 'Transfer from Emily Rose',
-        status: 'Success',
-        amount_usd: 3000.0,
-      },
-      {
-        dateTime: 'October 25, 2024',
-        description: 'Transfer to Starbucks',
-        status: 'Success',
-        amount_usd: -35.99,
-      },
-      {
-        dateTime: 'October 25, 2024',
-        description: 'Transfer to Michael Daniel',
-        status: 'Success',
-        amount_usd: -250.0,
-      },
-      {
-        dateTime: 'October 24, 2024',
-        description: 'Transfer from Olivia Marir',
-        status: 'Success',
-        amount_usd: 1870.0,
+        amount_usd: 2500000.00
       },
     ]
   },

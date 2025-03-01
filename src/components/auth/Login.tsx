@@ -34,7 +34,7 @@ export default function Login() {
     <div className="relative h-screen">
       <Header />
       <div className="bg-[white] p-4">
-        <div className="mt-3">{error && <p className="text-[20px] text-center mx-auto max-w-[200px] rounded-md flex items-center justify-center text-red-600">{error}</p>}</div>
+        <div className="my-3">{error && <p className="text-[20px] text-center mx-auto max-w-[200px] rounded-md flex items-center justify-center text-red-600">{error}</p>}</div>
 
         <div className="bg-white mx-auto py-3 pt-2 border shadow-sm rounded-[10px]">
           <form onSubmit={handleLogin}>

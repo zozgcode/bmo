@@ -12,7 +12,6 @@ import Loader from "../Loader";
 interface Bks {
   id: number;
   name: string;
-  logo: string;
 }
 
 interface FormErrors {
